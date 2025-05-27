@@ -92,7 +92,7 @@ def tab():
         
 
         # CV 
-        file_path = "files/CV_TAUDON.pdf"
+        file_path = "pages/files/CV_TAUDON.pdf"
         
         if os.path.exists(file_path):
             cv_link = get_binary_file_downloader_html(file_path, "CV available here")
